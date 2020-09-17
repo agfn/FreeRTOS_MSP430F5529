@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\applications\\ti\\ccs1010\\ccs\\ccs_base\\msp430\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "d:/applications/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "MSP430",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\applications\\ti\\ccs1010\\ccs\\tools\\compiler\\ti-cgt-msp430_20.2.1.LTS\\include",
+                "D:\\applications\\ti\\ccs1010\\ccs\\ccs_base\\msp430\\include",
+                "${workspaceFolder}/freertos/include",
+                "${workspaceFolder}\\freertos\\portable\\CCS\\MSP430X"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__MSP430F5529__"
+            ],
+            "compilerPath": "D:\\applications\\ti\\ccs1010\\ccs\\tools\\compiler\\msp430-gcc-9.2.0.50_win64\\bin\\msp430-elf-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
